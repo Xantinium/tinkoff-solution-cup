@@ -43,7 +43,7 @@
     "react/jsx-no-useless-fragment": ["warn", {
       "allowExpressions": true
     }],
-    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "no-plusplus": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
