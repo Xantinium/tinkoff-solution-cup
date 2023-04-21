@@ -3,6 +3,10 @@ import { RouterProvider } from 'react-router-dom';
 
 import router from './router';
 
+export function jest_test(a: number, b: number) {
+    return a + b;
+}
+
 function App() {
     return <RouterProvider router={router} />;
 }
