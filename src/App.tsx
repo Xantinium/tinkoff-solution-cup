@@ -1,7 +1,11 @@
 import React from 'react';
 
-const App: React.FC = () => {
+function App() {
+    const text = '';
+    if (text === '') {
+        return null;
+    }
     return null;
-};
+}
 
 export default App;
