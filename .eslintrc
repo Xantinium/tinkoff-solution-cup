@@ -76,8 +76,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-trailing-spaces": "warn",
     "function-paren-newline": "warn",
-    "spaced-comment": "warn",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    "spaced-comment": "warn"
   },
   "settings": {
     "import/resolver": {

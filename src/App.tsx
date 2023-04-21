@@ -1,11 +1,19 @@
 import React from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <div>Hello world!</div>,
+    },
+    {
+        path: '*',
+        element: <div>404</div>,
+    },
+]);
 
 function App() {
-    const text = '';
-    if (text === '') {
-        return null;
-    }
-    return null;
+    return <RouterProvider router={router} />;
 }
 
 export default App;
