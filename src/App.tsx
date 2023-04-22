@@ -2,7 +2,7 @@ import React from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 
-import router from './router';
+import { routerConfig } from './router';
 
 export function jest_test(a: number, b: number) {
     return a + b;
@@ -11,7 +11,7 @@ export function jest_test(a: number, b: number) {
 function App() {
     return (
         <ChakraProvider>
-            <RouterProvider router={router} />
+            <RouterProvider router={routerConfig} />
         </ChakraProvider>
     );
 }
