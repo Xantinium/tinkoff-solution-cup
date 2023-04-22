@@ -28,6 +28,7 @@ export default {
             ...props,
         });
         await consumptionsStore.setItem(CONSUMPTIONS, consumptions);
+        return id;
     },
     async removeConsumption(id: string) {
         const consumptions = await consumptionsStore.getItem(CONSUMPTIONS) as unknown as Array<Consumption>;

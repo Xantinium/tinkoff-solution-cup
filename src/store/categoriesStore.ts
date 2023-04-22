@@ -1,5 +1,5 @@
 import {
-    action, computed, makeObservable, observable, runInAction,
+    action, makeObservable, observable,
 } from 'mobx';
 
 import { Category } from '../service/categories/types';

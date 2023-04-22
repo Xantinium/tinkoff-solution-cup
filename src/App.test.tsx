@@ -1,5 +1,5 @@
-import { jest_test } from './App';
+import { no_tests_today } from './App';
 
-test('first test', () => {
-    expect(jest_test(1, 2)).toBe(3);
+test('sorry, but', () => {
+    expect(no_tests_today(1, 2)).toBe(3);
 });

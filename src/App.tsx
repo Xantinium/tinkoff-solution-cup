@@ -4,7 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 import { routerConfig } from './router';
 
-export function jest_test(a: number, b: number) {
+export function no_tests_today(a: number, b: number) {
     return a + b;
 }
 

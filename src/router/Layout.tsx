@@ -21,7 +21,7 @@ function Layout(props: Props) {
                 alignItems="center"
                 px="8"
             >
-                <Text color="black" fontSize="3xl" fontWeight="bold">Tinkoff Solution Cup</Text>
+                <Text color="black" fontSize="3xl" fontWeight="bold">Not Adaptive App</Text>
             </Box>
             <Box w="100%" flex={1} display="flex">
                 <SideBar config={sideBarConfig} />

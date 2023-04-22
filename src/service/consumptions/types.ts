@@ -1,6 +1,6 @@
 import { Category } from '../categories/types';
 
-type Currency = 'usd' | 'rub' | 'eur';
+export type Currency = 'usd' | 'rub' | 'eur';
 
 export type Consumption = {
     id: string,
