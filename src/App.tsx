@@ -1,5 +1,6 @@
 import React from 'react';
 import { RouterProvider } from 'react-router-dom';
+import { ChakraProvider } from '@chakra-ui/react';
 
 import router from './router';
 
@@ -8,7 +9,11 @@ export function jest_test(a: number, b: number) {
 }
 
 function App() {
-    return <RouterProvider router={router} />;
+    return (
+        <ChakraProvider>
+            <RouterProvider router={router} />
+        </ChakraProvider>
+    );
 }
 
 export default App;

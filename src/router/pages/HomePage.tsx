@@ -1,7 +1,13 @@
-import React, { useRef } from 'react';
+import React from 'react';
+import { Box } from '@chakra-ui/react';
+import Button from '../../components/Button';
 
 function HomePage() {
-    return (null);
+    return (
+        <Box>
+            <Button>Test</Button>
+        </Box>
+    );
 }
 
 export default HomePage;
